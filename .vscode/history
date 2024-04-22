@@ -1,0 +1,30 @@
+: 1713790193:0;git init
+: 1713790200:0;npm init
+: 1713790251:0;node --help
+: 1713790255:0;node --version
+: 1713790266:0;npm install fusuma
+: 1713790274:0;npx fusuma init
+: 1713790373:0;npx fusuma --help
+: 1713790388:0;npm init
+: 1713790412:0;npx fusuma
+: 1713790418:0;npx fusuma start
+: 1713790444:0;npm install fusuma
+: 1713790561:0;npx fusuma start
+: 1713790582:0;npx fusuma deploy
+: 1713790598:0;npx fusuma build && npx fusuma deploy
+: 1713790946:0;export PUPPETEER_EXECUTABLE_PATH=/Applications/Chromium.app/Contents/MacOS/Chromium
+: 1713790949:0;npx fusuma build && npx fusuma deploy
+: 1713790988:0;which chromium
+: 1713790999:0;export PUPPETEER_EXECUTABLE_PATH=/Users/swcho/homebrew/bin/chromium
+: 1713791001:0;npx fusuma build && npx fusuma deploy
+: 1713791218:0;npx fusuma build
+: 1713791235:0;code ~/.zshrc
+: 1713791253:0;exit
+: 1713791265:0;echo $PUPPETEER_EXECUTABLE_PATH
+: 1713791270:0;npx fusuma build
+: 1713795219:0;npm install fusuma-ex
+: 1713795250:0;npx fusuma start
+: 1713795302:0;npm install
+: 1713795321:0;rm -rf node_modules
+: 1713795327:0;rm -rf dist
+: 1713795333:0;npm install
