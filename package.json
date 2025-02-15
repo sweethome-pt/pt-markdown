@@ -4,11 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "fusuma start",
+    "start:prod": "fusuma start-prod",
+    "build": "fusuma build",
+    "pdf": "fusuma pdf"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fusuma-ex": "^2.9.1"
+    "fusuma-ex": "^2.9.1",
+    "puppeteer": "^8.0.0"
+  },
+  "volta": {
+    "node": "14.17.6",
+    "npm": "7.13.0"
   }
 }
