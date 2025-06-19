@@ -1,0 +1,60 @@
+@startuml test_assistant
+
+' 여러 LLM 모델로 부터 프롬프트와 tool을 설정해서 agent를 만들고,
+' 이 agent를 cli와 openweb ui에서 사용하는 plantuml component 다이어그램을 만들어보자.
+
+여러 LLM 모델로 부터 프롬프트와 tool을 설정해서 agent를 만들고,
+이 agent를 cli와 openweb ui에서 사용하는 구조
+
+' agent component
+component "Agent" as agent {
+  component "Agent" as agent1
+  component "Agent" as agent2
+  component "Agent" as agent3
+}
+
+' cli component
+component "CLI" as cli {
+  component "CLI" as cli1
+  component "CLI" as cli2
+  component "CLI" as cli3
+}
+
+' openweb ui component
+component "OpenWeb UI" as openweb {
+  component "OpenWeb UI" as openweb1
+  component "OpenWeb UI" as openweb2
+  component "OpenWeb UI" as openweb3
+}
+
+' LLM component
+component "LLM" as llm {
+  component "LLM" as llm1
+  component "LLM" as llm2
+  component "LLM" as llm3
+}
+
+' tool component
+component "Tool" as tool {
+  component "Tool" as tool1
+  component "Tool" as tool2
+  component "Tool" as tool3
+}
+
+' agent1 -> llm1: prompt
+agent1 -> tool1: tool
+agent1 -> cli1: cli
+agent1 -> openweb1: openweb
+
+' agent2 -> llm2: prompt
+agent2 -> tool2: tool
+agent2 -> cli2: cli
+agent2 -> openweb2: openweb
+
+' agent3 -> llm3: prompt
+agent3 -> tool3: tool
+agent3 -> cli3: cli
+agent3 -> openweb3: openweb
+
+
+@enduml

@@ -1,0 +1,6 @@
+{
+  "terminal.integrated.env.windows": {
+    // "PATH": "${env:PROFILE}\\.cargo\\bin;${env:PATH}"
+    "PUPPETEER_EXECUTABLE_PATH": "/Users/swcho/homebrew/bin/chromium"
+  }
+}

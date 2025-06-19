@@ -12,16 +12,22 @@
 - 가장 유명한 AI 친구
 - 글쓰기, 질문답변에 특히 강해요!
 - 최신 버전은 이미지도 볼 수 있어요
+- https://openai.com/
 
 ## Claude (Anthropic)
 - 긴 대화를 잘하는 친구
 - 논리적인 설명을 잘해요
 - 윤리적이고 안전한 대화를 해요
+- https://claude.ai/new
 
 ## Gemini (Google)
 - 구글이 만든 똑똑한 친구
 - 구글 서비스들과 잘 어울려요
 - 다양한 언어를 잘 이해해요
+- https://gemini.google.com/app
+
+# Perplexity
+- https://www.perplexity.ai/
 
 ---
 
@@ -84,3 +90,10 @@ AI는 도우미일 뿐, 여러분의 창의력이 가장 중요해요!
 ---
 
 # 질문 있나요? 🙋‍♀️🙋‍♂️
+
+---
+
+# 심화
+
+![alt text](./visual_selection.svg)
+[Gen by Neplkin](https://app.napkin.ai/page/CgoiCHByb2Qtb25lEiwKBFBhZ2UaJDc0OTUwYzVjLWRhYWEtNGY4Zi1hZmM5LWYwYjE4YTBjN2Q0OA)
